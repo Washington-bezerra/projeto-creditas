@@ -1,0 +1,91 @@
+* {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    list-style: none;
+    margin: 32px;
+    display: flex;
+
+
+}
+
+li a {
+
+    padding: 8px 8px;
+    background: red;
+    text-decoration: none;
+    color: #FFF;
+    /* cantos arredondados */
+    border-color: black;
+    border-radius: 15px 50px 30px;
+    width: 100px;
+
+}
+
+li a:hover {
+    background: rgb(151, 90, 110);
+    color: #000;
+    border-color: #000;
+}
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#container {
+    width: 940px;
+    background-color: white;
+    justify-content: left;
+
+}
+
+.box {
+    width: 240px;
+    height: 50px;
+    border-right: 8px solid #f6a588;
+    border-radius: 16px;
+    box-shadow: #000 2px 8px 8px;
+    vertical-align: top;
+}
+
+.row {
+    display: table;
+    width: 100%;
+
+}
+
+.column {
+    display: table-cell;
+}
+
+div.polaroid {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 16px 16px 16px;
+    display: inline-block;
+    background-color: rgb(226, 222, 222);
+}
+
+div.container {
+    padding: 10px;
+}
+
+.letreiro-japan{
+    font-size: 40px;
+    display: block;
+    text-align: right;
+
+}
