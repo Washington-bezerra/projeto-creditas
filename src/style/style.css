@@ -46,9 +46,8 @@ li a:hover {
 
 #container {
     width: 940px;
-    background-color: white;
+    background-color: rgb(231, 229, 229);
     justify-content: left;
-
 }
 
 .box {
