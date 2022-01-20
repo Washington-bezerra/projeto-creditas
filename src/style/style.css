@@ -1,5 +1,6 @@
 * {
     font-family: Verdana, Geneva, sans-serif;
+    /*font-family: Atomic-Samurai, Courier, sans-serif;*/
     font-size: 12px;
 }
 
@@ -23,7 +24,6 @@ li a {
     background: #f55318;
     text-decoration: none;
     color: #FFF;
-    /* cantos arredondados */
     border-color: black;
     border-radius: 15px 50px 30px;
     width: 80.7%;
