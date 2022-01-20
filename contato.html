@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="src/style/style.css" rel="stylesheet">
-    <script src="./src/js/formularios/form.avaliaCheckBox.js"></script>
+    <script src="./src/js/botao.js"></script>
     <title>Sushi</title>
 </head>
 
@@ -66,22 +66,20 @@
 
                 <div style="margin: 20px; margin-left: 40px; width: 85%;">
 
-                    <form>
+                    <form id="formItem">
                         <label>Nome:</label><br>
-                        <input class="input" type="text" id="formItem" name="fname" required><br><br>
+                        <input class="input" type="text" name="fname" required><br><br>
 
-                        <label for="lname">Sobrenome:</label><br>
-                        <input class="input" type="text" id="formItem" name="lname" required><br><br>
+                        <label>Sobrenome:</label><br>
+                        <input class="input" type="text" name="lname" required><br><br>
 
-                        <label for="lname">Email:</label><br>
-                        <input class="input" type="email" id="formItem" name="lname" required><br><br>
+                        <label>Email:</label><br>
+                        <input class="input" type="email" name="lname" required><br><br>
 
-                        <label for="lname">Sua menssagem:</label><br>
-                        <textarea class="input" style="height: 50px;"></textarea><br><br>
+                        <label>Sua menssagem:</label><br>
+                        <textarea class="input" style="height: 50px;" required></textarea><br><br>
 
-                        <div style="display: flex; justify-content: center;">
-                            <button type="submit" class="button" name="submit">Entrar</button>
-                        </div>
+                        <button type="submit" class="button" name="button-submit" onclick="desabilita()">Entrar</button>
 
                     </form>
 
