@@ -19,8 +19,8 @@ li {
 
 li a {
 
-    padding: 3.33% 3.33%;
-    background: red;
+    padding: 8px 24px 8px 24px;
+    background: #f55318;
     text-decoration: none;
     color: #FFF;
     /* cantos arredondados */
@@ -82,4 +82,41 @@ div.polaroid {
 
 div.container {
     padding: 1.04%;
+}
+
+.titulo {
+
+    font-size: 200%;
+    width: 50%;
+
+    margin-left: -300%;
+}
+
+.button {
+
+    background-color: #f55318;
+    border: none;
+    color: white;
+    padding: 8px 24px 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 16px;
+
+}
+
+.input{
+    width: 80%;
+    height: 20px;
+    background-color: #f6a588;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    resize: none;
+}
+
+label{
+    font-size: 120%;
 }
