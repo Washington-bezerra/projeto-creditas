@@ -1,5 +1,5 @@
 document.write(`
-<div class="box column">
+<div class="menu column">
     <ul>
         <li><a href="/index.html">Home</a></li>
         <li><a href="/sushi.html">Sushi</a></li>

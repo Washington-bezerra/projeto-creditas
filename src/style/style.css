@@ -37,14 +37,19 @@ li a:hover {
 }
 
 #container {
-    width: 940px;
+    width: 100%;
+    background-image: url(bandeira-sol.png);
     background-color: rgb(231, 229, 229);
-    justify-content: left;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.box {
+.menu {
     width: 25%;
-    height: 5.20%;
+
     border-right: 8px solid #f6a588;
     border-top: 8px solid #f6a588;
 
@@ -114,9 +119,15 @@ label {
     font-size: 120%;
 }
 
-div.polaroid:hover{
+div.polaroid:hover {
     width: 29%;
     border-style: solid;
     border-width: medium;
     border-color: #f55318;
+}
+
+.box-principal {
+    width: 940px;
+    min-height: 650px;
+    background-color: rgb(221, 219, 215);
 }
