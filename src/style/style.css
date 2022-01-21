@@ -146,3 +146,7 @@ label {
     font-weight: normal;
     font-style: normal;
 }
+
+figure{
+    margin: 0px;
+}
