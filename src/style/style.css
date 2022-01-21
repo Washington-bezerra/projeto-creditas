@@ -100,7 +100,7 @@ div.container {
 
 }
 
-.input{
+.input {
     width: 80%;
     height: 20px;
     background-color: #f6a588;
@@ -110,6 +110,13 @@ div.container {
     resize: none;
 }
 
-label{
+label {
     font-size: 120%;
+}
+
+div.polaroid:hover{
+    width: 29%;
+    border-style: solid;
+    border-width: medium;
+    border-color: #f55318;
 }
