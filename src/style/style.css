@@ -28,7 +28,7 @@ li a {
     border-radius: 15px 50px 30px;
     width: 80.7%;
     font-family: samurai, Verdana, Geneva, sans-serif;
-    font-size: 170%;
+    font-size: 150%;
 
 }
 
@@ -51,7 +51,8 @@ li a:hover {
 
 .menu {
     width: 25%;
-
+    padding-left: 1%;
+    padding-right: 5%;
     border-right: 8px solid #f6a588;
     border-top: 8px solid #f6a588;
 
