@@ -40,13 +40,13 @@ li a:hover {
 
 #container {
     width: 100%;
-    background-image: url(bandeira-sol.png);
-    background-color: rgb(231, 229, 229);
+    background-image: url(../images/fundo.png);
     position: absolute;
     top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1%;
 }
 
 .menu {
@@ -55,6 +55,7 @@ li a:hover {
     padding-right: 5%;
     border-right: 8px solid #f6a588;
     border-top: 8px solid #f6a588;
+    display: table-caption;
 
     border-radius: 16px;
     box-shadow: #000 2px 8px 8px;
