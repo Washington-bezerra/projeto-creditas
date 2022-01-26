@@ -50,13 +50,11 @@ li a:hover {
 }
 
 .menu {
-    width: 25%;
+    width: 200px;
     padding-left: 1%;
     padding-right: 5%;
     border-right: 8px solid #f6a588;
     border-top: 8px solid #f6a588;
-    display: table-caption;
-
     border-radius: 16px;
     box-shadow: #000 2px 8px 8px;
     vertical-align: top;

@@ -1,5 +1,5 @@
 document.write(`
-<nav class="menu column">
+<nav class="menu">
     <ul>
         <li><a href="./index.html">Home</a></li>
         <li><a href="./sushi.html">Sushi</a></li>
