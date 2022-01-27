@@ -51,8 +51,8 @@ li a:hover {
 
 .menu {
     width: 200px;
-    padding-left: 1%;
-    padding-right: 5%;
+    padding-left: 2px;
+    padding-right: 3px;
     border-right: 8px solid #f6a588;
     border-top: 8px solid #f6a588;
     border-radius: 16px;
@@ -61,7 +61,7 @@ li a:hover {
 }
 
 .row {
-    display: table;
+    display: inline-block;
     width: 100%;
 
 }
@@ -81,7 +81,7 @@ div.polaroid {
 }
 
 div.polaroid:hover {
-    width: 29%;
+    width: 27%;
     border-style: solid;
     border-width: medium;
     border-color: #f55318;
@@ -149,4 +149,14 @@ label {
 
 figure{
     margin: 0px;
+}
+
+
+nav {
+    float: left;
+    margin-right: 10px;
+    width: 300px;
+    height: 380px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
