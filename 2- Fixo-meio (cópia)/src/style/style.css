@@ -1,0 +1,193 @@
+/*****************
+* Config da font *
+******************/
+* {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+}
+
+@font-face {
+    font-family: 'samurai';
+    src: url('shanghai.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*****************
+* Config do menu *
+******************/
+
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    list-style: none;
+    margin: 13.33%;
+    display: flex;
+
+
+}
+
+li a {
+
+    padding: 8px 24px 8px 24px;
+    background: #f55318;
+    text-decoration: none;
+    color: #FFF;
+    border-color: black;
+    border-radius: 15px 50px 30px;
+    width: 80.7%;
+    font-family: samurai, Verdana, Geneva, sans-serif;
+    font-size: 150%;
+
+}
+
+li a:hover {
+    background: rgb(151, 90, 110);
+    color: #000;
+    border-color: #000;
+}
+
+.menu {
+    width: 200px;
+    height: 400px;
+    padding-left: 1%;
+    padding-right: 5%;
+    border-right: 8px solid #f6a588;
+    border-top: 8px solid #f6a588;
+    display: inline-block;
+    margin-top: 0px;
+    border-radius: 16px;
+    box-shadow: #000 2px 8px 8px;
+    vertical-align: top;
+}
+
+/*****************
+* Fundo          *
+******************/
+#container {
+    width: 100%;
+    height: 800px;
+    background-image: url(../images/fundo.png);
+    position: absolute;
+    top: 0;
+    padding: 1%;
+}
+
+/*****************
+* Form           *
+******************/
+.button {
+
+    background-color: #f55318;
+    border: none;
+    color: white;
+    padding: 8px 24px 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 16px;
+
+}
+
+.input {
+    width: 80%;
+    height: 20px;
+    background-color: #f6a588;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    resize: none;
+}
+
+label {
+    font-size: 120%;
+}
+
+/*****************
+* Gerais         *
+******************/
+.row {
+    display: inline-block;
+    width: 100%;
+
+}
+
+.column {
+    display: inline-block;
+}
+
+.column-main {
+    display: inline-block;
+    width: 650px;
+    display: inline-block;
+
+}
+
+div.itens-cardapio {
+    width: 161px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 16px 16px 16px;
+    display: inline-block;
+    background-color: rgb(226, 222, 222);
+    margin: 25px 0px 0px;
+}
+
+div.itens-cardapio:hover {
+    width: 26%;
+    border-style: solid;
+    border-width: medium;
+    border-color: #f55318;
+}
+
+div.descricao-items {
+    padding: 1.04%;
+}
+
+p{
+    font-family: samurai, Verdana, Geneva, sans-serif;
+    font-size: 150%;
+}
+
+.titulo {
+
+    font-size: 200%;
+    width: 50%;
+    margin-left: -300%;
+}
+
+.box-principal {
+    width: 940px;
+    height: 750px;
+    min-height: 650px;
+    background-color: rgb(221, 215, 220);
+    border-radius: 8px;
+    margin-top: 0px;
+    margin-left: 470px;
+    margin: 0 auto;
+    
+}
+
+figure{
+    margin: 0px;
+}
+
+nav {
+    float: left;
+    margin-right: 10px;
+    width: 300px;
+    height: 380px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.mapGoogle{
+    margin: 20px;
+    margin-left: 40px;
+}
