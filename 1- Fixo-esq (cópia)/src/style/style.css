@@ -27,8 +27,6 @@ li {
     list-style: none;
     margin: 13.33%;
     display: flex;
-
-
 }
 
 li a {
@@ -117,7 +115,6 @@ label {
 .row {
     display: inline-block;
     width: 100%;
-
 }
 
 .column {
@@ -127,8 +124,6 @@ label {
 .column-main {
     display: inline-block;
     width: 650px;
-    display: inline-block;
-
 }
 
 div.itens-cardapio {

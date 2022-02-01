@@ -1,8 +1,21 @@
+/*****************
+* Config da font *
+******************/
 * {
     font-family: Verdana, Geneva, sans-serif;
-    /*font-family: Atomic-Samurai, Courier, sans-serif;*/
     font-size: 12px;
 }
+
+@font-face {
+    font-family: 'samurai';
+    src: url('shanghai.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*****************
+* Config do menu *
+******************/
 
 ul {
     margin: 0;
@@ -36,6 +49,23 @@ li a:hover {
     border-color: #000;
 }
 
+.menu {
+    width: 200px;
+    min-width: 200px;
+    padding-left: 1px;
+    padding-right: 8px;
+    border-right: 8px solid #f6a588;
+    border-top: 8px solid #f6a588;
+    border-radius: 16px;
+    box-shadow: #000 2px 8px 8px;
+    vertical-align: top;
+
+
+}
+
+/*****************
+* Fundo          *
+******************/
 #container {
     width: 100%;
     background-image: url(../images/fundo.png);
@@ -47,23 +77,44 @@ li a:hover {
     padding: 1%;
 }
 
-.menu {
-    width: 200px;
-    min-width: 200px;
-    padding-left: 1px;
-    padding-right: 8px;
-    border-right: 8px solid #f6a588;
-    border-top: 8px solid #f6a588;
+/*****************
+* Form           *
+******************/
+.button {
 
+    background-color: #f55318;
+    border: none;
+    color: white;
+    padding: 8px 24px 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
     border-radius: 16px;
-    box-shadow: #000 2px 8px 8px;
-    vertical-align: top;
+
 }
 
+.input {
+    width: 80%;
+    height: 20px;
+    background-color: #f6a588;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    resize: none;
+}
+
+label {
+    font-size: 120%;
+}
+
+/*****************
+* Gerais         *
+******************/
 .row {
     display: table;
     width: 100%;
-
 }
 
 .column {
@@ -104,34 +155,9 @@ p{
     margin-left: -300%;
 }
 
-.button {
 
-    background-color: #f55318;
-    border: none;
-    color: white;
-    padding: 8px 24px 8px 24px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    border-radius: 16px;
 
-}
 
-.input {
-    width: 80%;
-    height: 20px;
-    background-color: #f6a588;
-    border-radius: 8px;
-    border: none;
-    padding: 10px;
-    resize: none;
-}
-
-label {
-    font-size: 120%;
-}
 
 .box-principal {
     width: 940px;
