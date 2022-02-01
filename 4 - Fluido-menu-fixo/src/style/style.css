@@ -12,10 +12,8 @@ ul {
 
 li {
     list-style: none;
-    margin: 13.33%;
+    margin: 30px;
     display: flex;
-
-
 }
 
 li a {
@@ -26,9 +24,9 @@ li a {
     color: #FFF;
     border-color: black;
     border-radius: 15px 50px 30px;
-    width: 80.7%;
+    width: 80px;
     font-family: samurai, Verdana, Geneva, sans-serif;
-    font-size: 150%;
+    font-size: 18px;
 
 }
 
@@ -50,12 +48,12 @@ li a:hover {
 }
 
 .menu {
-    width: 250px;
-    padding-left: 1%;
-    padding-right: 5%;
+    width: 200px;
+    min-width: 200px;
+    padding-left: 1px;
+    padding-right: 8px;
     border-right: 8px solid #f6a588;
     border-top: 8px solid #f6a588;
-    display: table-caption;
 
     border-radius: 16px;
     box-shadow: #000 2px 8px 8px;
@@ -83,7 +81,7 @@ div.polaroid {
 }
 
 div.polaroid:hover {
-    width: 29%;
+    width: 26%;
     border-style: solid;
     border-width: medium;
     border-color: #f55318;
@@ -151,4 +149,11 @@ label {
 
 figure{
     margin: 0px;
+}
+
+
+/*teste*/
+.container-flex{
+    display: flex;
+    align-items: flex-start;
 }
