@@ -50,8 +50,7 @@ li a:hover {
 }
 
 .menu {
-    width: 290px;
-    min-width: 200px;
+    min-width: 220px;
     padding-left: 1px;
     padding-right: 8px;
     border-right: 8px solid #f6a588;
