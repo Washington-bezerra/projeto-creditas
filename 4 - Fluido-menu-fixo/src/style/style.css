@@ -50,7 +50,7 @@ li a:hover {
 }
 
 .menu {
-    width: 200px;
+    width: 290px;
     min-width: 200px;
     padding-left: 1px;
     padding-right: 8px;
@@ -128,7 +128,9 @@ div.polaroid {
     border-radius: 16px 16px 16px;
     display: inline-block;
     background-color: rgb(226, 222, 222);
-    margin: 25px 0px 0px;
+    margin: 25px 0px;
+    margin-top: 0px;
+    margin-bottom: 25px;
 }
 
 div.polaroid:hover {
