@@ -2,7 +2,7 @@
 Site de um restaurante de comida japonêsa, proposto pela Creditas Academy, a titulo de estudo.
 
 ## Versões do site
-1 - [Versão Fixo Esquerda](hhttps://washington-bezerra.github.io/projeto-creditas/1-%20Fixo-esq/index.html)
+1 - [Versão Fixo Esquerda](https://washington-bezerra.github.io/projeto-creditas/1-%20Fixo-esq/index.html)
 
 2 - [Versão Fixo Esquerda](https://washington-bezerra.github.io/projeto-creditas/2-%20Fixo-meio/index.html)
 
