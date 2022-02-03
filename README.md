@@ -1,5 +1,5 @@
 # Japan House - Projeto Creditas
-Site de um restaurante de comida japonêsa, peoposta pela Creditas Academy, a titulo de estudo.
+Site de um restaurante de comida japonêsa, proposto pela Creditas Academy, a titulo de estudo.
 
 ## Versões do site
 1 - [Versão Fixo Esquerda](https://github.com/Washington-bezerra/projeto-creditas/blob/main/1-%20Fixo-esq/index.html)
